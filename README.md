@@ -4,7 +4,7 @@
 
 ```
 #~######:제목
-'(backtick) : 박스표시
+`(backtick) : 박스표시
 ```
 
 #github
