@@ -2,9 +2,9 @@
 
 # md(markdown)
 
-...
+```
 #~######:제목
 '(backtick) : 박스표시
-...
+```
 
 #github
