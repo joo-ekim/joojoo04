@@ -1,10 +1,11 @@
-# md(markdown)
+# md(MarkDown)
 
 ```
 #~######:제목
+
 `(backtick) : 박스표시
 ```
 
-# github
+# Github
 
 # 클라이언트 서버 시스템
