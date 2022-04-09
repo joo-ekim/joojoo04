@@ -257,7 +257,7 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
   - 연락처
   - 사이트 맵
   - 저작권
-  -연관 링크
+  - 연관 링크
 
 - figure
   - embeded contents 또는 그림형태의 콘텐츠를 grouping 하는 요소
