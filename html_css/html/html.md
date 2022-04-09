@@ -261,3 +261,9 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
 
 - figure
   - embeded contents 또는 그림형태의 콘텐츠를 grouping 하는 요소
+
+### Container Element
+
+- 단순 구역 나누는 / grouping 하는 요소
+- div(ision)
+- span
