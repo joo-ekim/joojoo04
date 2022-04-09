@@ -235,6 +235,8 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
 
 - grouping 또는 구분하는 Element를 의미있게 사용
 - 의미있는 grouping Element가 추가
+- Semantic Element 와 Sementic Element를 목적에 맞게 제대로 구성하는 것이
+  검색엔진에(SEO:Search engine optimization) 웹사이트 관련 정보를 잘 노출시킬 수 있는 방법중의 하나
 
 - header
   - 소개 콘텐츠(logo...), 탐색링크(상단메뉴, 검색바), 로그인, 언어선택...
