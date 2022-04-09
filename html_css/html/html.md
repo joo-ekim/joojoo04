@@ -204,3 +204,14 @@ ex)www.w3schools.com(주소)/html(상세경로)/defauit.asp(파일정보)
 ```
 <img src="www.naver.com/html/photo.jpg" alt="이미지 설명">
 ```
+
+### HTML Video
+
+- Video
+
+- 
+```
+<video>
+  <source src="www.daum.net/video/movie.mp4">
+</video>
+```
