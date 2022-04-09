@@ -206,6 +206,15 @@ ex)www.w3schools.com(주소)/html(상세경로)/defauit.asp(파일정보)
 <img src="www.naver.com/html/photo.jpg" alt="이미지 설명">
 ```
 
+ - 이미지 형식
+  - 비트맵(포토샵), 벡터(일러스트레이터) 이미지
+  - 비트맵 이미지 형식
+     - jpg : 사진
+     - png : 투명 배경
+     - gif : 용량이 작음 - 로고, 애니메이션
+  - 벡터 이미지
+     - svg
+
 ### HTML Video
 
 - Video
@@ -267,3 +276,17 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
 - 단순 구역 나누는 / grouping 하는 요소
 - div(ision)
 - span
+
+## 파일 경로 표시 방식
+
+- 절대 경로(주소) 방식
+  - 항상 똑같은 경로(주소)
+  - 주소 표시 방식이 복잡함
+
+- 상대 경로 방식
+  - 출발 위치 기준에 따라 상대적으로 경로(주소) 표시 형태가 변경
+  - 같은 자원의 위치에 대해서 표시 방식이 너무 많음
+  - 자원의 위치가 이동하면, 주소를 모두 수정해야함
+
+- root 상대 경로 방식
+   - root : 최상위 경로 
