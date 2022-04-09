@@ -4,7 +4,8 @@
 
 - Contents
   - Text Contents
-  - Image, Video, Audio Contents
+  - Image, Video, Audio 
+    - Embed(ed) Contents
 - Structure
 
 ## HTML Introduction
@@ -193,3 +194,13 @@ ex)www.w3schools.com(주소)/html(상세경로)/defauit.asp(파일정보)
     <dd>목록 설명</dd>
   </dl>
   ```
+
+### HTML Image
+
+  - ing
+  - src(source) : 이미지 파일 경로/파일명 표시
+  - alt(ernative) : 대체텍스트
+
+```
+<img src="www.naver.com/html/photo.jpg" alt="이미지 설명">
+```
