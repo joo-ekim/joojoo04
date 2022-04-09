@@ -228,3 +228,34 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
 <iframe src="youtube-url?parameter1=0&parameter2=1&parameter3=0"></iframe>
 ?부터 parameter 시작
 ```
+
+## HTML Structure
+
+### Semantic Elements
+
+- grouping 또는 구분하는 Element를 의미있게 사용
+- 의미있는 grouping Element가 추가
+
+- header
+  - 소개 콘텐츠(logo...), 탐색링크(상단메뉴, 검색바), 로그인, 언어선택...
+
+- nav(igation)
+  - 메뉴
+
+- section
+  - 제목, 내용으로 구성된 하나의 영역
+
+- article
+  - 독립적인 글 또는 콘텐츠
+
+- aside
+  - 부수적인 콘텐츠 영역
+
+- footer
+  - 연락처
+  - 사이트 맵
+  - 저작권
+  -연관 링크
+
+- figure
+  - embeded contents 또는 그림형태의 콘텐츠를 grouping 하는 요소
