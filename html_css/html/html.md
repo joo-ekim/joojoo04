@@ -6,6 +6,7 @@
   - Text Contents
   - Image, Video, Audio 
     - Embed(ed) Contents
+
 - Structure
 
 ## HTML Introduction
@@ -197,7 +198,7 @@ ex)www.w3schools.com(주소)/html(상세경로)/defauit.asp(파일정보)
 
 ### HTML Image
 
-  - ing
+  - img
   - src(source) : 이미지 파일 경로/파일명 표시
   - alt(ernative) : 대체텍스트
 
@@ -225,4 +226,5 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
 
 ```
 <iframe src="youtube-url?parameter1=0&parameter2=1&parameter3=0"></iframe>
+?부터 parameter 시작
 ```
