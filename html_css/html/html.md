@@ -208,8 +208,10 @@ ex)www.w3schools.com(주소)/html(상세경로)/defauit.asp(파일정보)
 ### HTML Video
 
 - Video
-
-- 
+  - 이름만 사용하는 attribute는 on/off 기능 형태
+  - controls : 재생 컨트롤을 화면에 표시
+  - autoplay : 자동 재생
+  - muted : 소리 제거
 ```
 <video>
   <source src="www.daum.net/video/movie.mp4">
