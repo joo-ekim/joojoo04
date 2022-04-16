@@ -338,14 +338,14 @@ head 태그요소 .비트계산 - ip, 문자표시, 색표시
 
 ## Block & Inline
 
-- 구역을 구분하는 Semeantic Element, Container Element 뿐만아니라 Contents를 표현하는 Element도 화면에 영역으로 표시됨
+- 구역을 구분하는 Semantic Element, Container Element 뿐만아니라 Contents를 표현하는 Element도 화면에 영역으로 표시됨
 
 ### Block Element
 
 - 요소의 영역이 부모요소를 기준으로 가능한 최대 너비로 채워짐
 - 요소와 요소는 줄바꿈되어 새 줄에 표시됨
 
-### Inline Elment
+### Inline Element
 
 - 요소의 영역이 Content 또는 자식요소를 기준으로 맞춰짐
 - 요소와 요소는 한 줄에 나란히 표시가 됨
