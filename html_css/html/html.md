@@ -237,7 +237,17 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
 <iframe src="youtube-url?parameter1=0&parameter2=1&parameter3=0"></iframe>
 ?부터 parameter 시작
 ```
+### 콘텐츠 강조
 
+- 제목의 역할까지는 아니지만 중요, 강조의 의미를 가진 텍스트 표시
+
+ - em(pasized)
+ - strong
+ - mark
+ 
+ ```
+ strong > mark > em
+ ```
 ## HTML Structure
 
 ### Semantic Elements
@@ -317,3 +327,5 @@ src="../image/photo.jpg"
 href="/html/home.html"
 src="/images/photo.jpg"
 ```
+
+head 태그요소 
