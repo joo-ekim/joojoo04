@@ -49,6 +49,11 @@ selector{property:value;}
 
 - FE에서는 주로 class를 활용
 
+## CSS Selector
+- Simple Selector
+- Element Selector
+- class Selector
+
 CSS에서 id, class를 표현하는 방법
 - id => #
 - class => .
@@ -58,5 +63,5 @@ CSS에서 id, class를 표현하는 방법
 .para2{} (class)
 ```
 
-## CSS Selector
+
 
