@@ -92,3 +92,7 @@
 - 색 표현
   - 24bit 트루 컬러(3 byte)
   - 16,777,216개의 색 표현
+  - 색 혼합 방식
+    - RGB(가산혼합 : 스크린) : Red, Blue, Green 색의 혼합
+      - R(1byte), G(1byte), B(1byte)
+    - CMYK(감산 혼합 : 프린터) : Cyan, Magenta, Yellow, Black 색의 혼합
