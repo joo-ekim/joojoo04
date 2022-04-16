@@ -248,6 +248,12 @@ https://developers.google.com/youtube/player_parameters?hl=ko#controls
  ```
  strong > mark > em
  ```
+
+### 그 밖의 Text Element
+
+- b(old)
+- i(talic)
+
 ## HTML Structure
 
 ### Semantic Elements
