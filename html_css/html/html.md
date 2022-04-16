@@ -324,7 +324,7 @@ src="../image/photo.jpg"
    - root 경로에서 부터 찾아갈 수 있도록 상대 경로 방식을 변형
    - 같은 서버내에서는 절대 경로 방식과 동일하게 사용한다
 ```
-/ - html  - home.html
+  - html  - home.html
           - sub.html
   - images  - photo.jpg
 
@@ -334,7 +334,9 @@ href="/html/home.html"
 src="/images/photo.jpg"
 ```
 
-head 태그요소, 비트계산 - ip, 문자표시, 색표시
+### head 태그요소 
+
+비트계산 - ip, 문자표시, 색표시
 
 ## Block & Inline
 
