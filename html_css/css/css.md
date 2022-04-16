@@ -36,5 +36,27 @@ selector{property:value;}
 <p class="para2">단락내용2</p>
 ```
 
+- id
+  - 동일한 HTML 파일에서 단 한번만 사용되어야 함 
+    => 고유하게 사용됨, BackEnd 개발과 연결해서 활용
+  - 동일한 HTML Element에 여러개의 id 이름을 사용할 수 없음
+
+- class
+  - 동일한 HTML 파일에서 같은 이름을 여러번 사용할 수 있음
+    => 여러 요소에 스타일을 공동적용 시킬 때 활용
+  - 동일한 HTML Element에 여러개의 class 이름을 사용할 수 있음
+    => 스타일을 분리해서 조립하는 형태로 활용
+
+- FE에서는 주로 class를 활용
+
+CSS에서 id, class를 표현하는 방법
+- id => #
+- class => .
+
+```
+#para1{} (id)
+.para2{} (class)
+```
+
 ## CSS Selector
 
