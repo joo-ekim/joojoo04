@@ -334,7 +334,7 @@ href="/html/home.html"
 src="/images/photo.jpg"
 ```
 
-head 태그요소 .비트계산 - ip, 문자표시, 색표시
+head 태그요소, 비트계산 - ip, 문자표시, 색표시
 
 ## Block & Inline
 
@@ -347,5 +347,5 @@ head 태그요소 .비트계산 - ip, 문자표시, 색표시
 
 ### Inline Element
 
-- 요소의 영역이 Content 또는 자식요소를 기준으로 맞춰짐
+- 요소의 영역이 Contents 또는 자식요소를 기준으로 맞춰짐
 - 요소와 요소는 한 줄에 나란히 표시가 됨
