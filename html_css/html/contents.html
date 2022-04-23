@@ -8,15 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <style>
-      
+    <style>     
       @font-face{
         font-family:"NB-regular";
         src:local(nanumbarun),
             url(/resources/nbg_r.woff) format("woff");
         font-style:normal;
         font-weight:normal;
-
       }
       @font-face{
         font-family:"NB-bold";
@@ -24,28 +22,21 @@
              url(/resources/nbg_b.woff) format("woff");
         font-style:normal;
         font-weight:normal;
-
-      }
-    
+      }    
       h1{
         color:#fcdf03;
         font-family: 'Roboto', sans-serif;
-      }
-      
+      }     
       i{
         font-style:normal;
         font-family:'NB-regular';sans-serif;
         text-decoration: overline;
-        word-spacing: 10px;
-      
-      
+        word-spacing: 10px;          
       }
       p.align-center{
         text-align:center;
         line-height: 1.8;
-        white-space: nowrap;
-      
-        
+        white-space: nowrap;       
       }
       p.indent{
         text-indent: 50px;
@@ -57,8 +48,19 @@
       }
       .bold{
         font-family: 'Roboto', sans-serif;
-        font-weight: 900;
-
+        font-weight: 100;
+      }
+      a:link{ /*기본링크상태*/
+        color:#FF9090;
+      }
+      a:visited{ /*방문 후 링크표시*/
+        color:cornflowerblue;
+      }
+      a:hover{ /*링크위에 커서를 놓았을때*/
+        text-decoration: underline;
+      }
+      a:active{ /*링크를 누를때*/
+        color:gold;
       }
     </style>
   </head>
