@@ -165,3 +165,21 @@ p{
 
 - 글꼴 크기 : font-size
 - 값 : px값
+
+### Web Font
+
+- 로컬 서버에 웹 폰트 파일을 업로드해서 사용하는 방법
+  - local 함수 : 사용자 pc에 설치된 폰트 검색
+  - url() 함수 : 웹 폰트 파일 불러오기
+  - format() 함수 : 브라우저에서 파일 불러오기
+
+```
+  @font-face{
+        font-family:"NB-regular";
+        src:local(nanumbarun),
+            url(/resources/nbg_r.woff) format("woff");
+        font-style:normal;
+        font-weight:normal;
+
+  }
+``` 
