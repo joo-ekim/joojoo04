@@ -203,4 +203,11 @@ p{
   - 우선순위 : 선택자의 우선 순위에 따라서 적용되는 순서를 변경할 수 있음
     - id : 100점
     - class : 10점
-    - tag : 1점 
+    - tag : 1점
+
+## 네이밍 표기법 : naming()intro => 두개 이상의 단어로 네이밍을 할 때, 단어 사이의 구분을 하는 방법 
+
+- naming-intro : kebab case => id, class, url 경로
+- naming_intro : snake case => file, folder
+- namingIntro : camel case (첫번째는 소문자, 이어붙여서 두번째 단어는 대문자) => js의 변수, 함수 이름
+- NamingIntro : pascal case (첫번째, 두번째 모두 대문자) => js Class 이름
