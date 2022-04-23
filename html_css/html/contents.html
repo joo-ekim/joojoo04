@@ -70,6 +70,21 @@
       body{
         font-family:"NB-regular";sans-serif;
       }
+      dl{
+        font-size:20px;
+      }
+      dl{
+        font-size: 30px;
+      }
+      #strong-id{
+        font-size: 50px;
+      }
+      .strong-class{
+        font-size: 40px;
+      }
+      strong#strong-id{ /* 1 + 100 = 101 => 점수를 더해서 우선순위를 높인다 */
+        font-size: 30px;
+      }
     </style>
   </head>
   <body>
@@ -437,7 +452,7 @@
     </section>
 
     <section>
-      <strong>강조 텍스트</strong>
+      <strong id="strong-id" class="strong-class">강조 텍스트</strong>
       <mark>강조 텍스트</mark>
       <em>강조 텍스트</em>
     </section>
