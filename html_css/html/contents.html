@@ -9,9 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
+      /* local 함수 : 사용자 pc에 설치된 폰트 검색 */
+      /* url()함수 : 웹 폰트 파일 불러오기 */
+      /* format()함수 : 웹 폰트 파일 불러오기 */
+      @font-face{
+        font-family:"NB-regular";
+        src: local(nanumbarun),
+             url(/resources/nbg_r.woff) format(woff);
+        font-style:normal;
+        font-weight:normal;
+
+      }
+      @font-face{
+        font-family:"NB-bold";
+        src: local(nanumbarun),
+             url(/resources/nbg_b.woff) format(woff);
+        font-style:normal;
+        font-weight:normal;
+
+      }
+    
       h1{
         color:#fcdf03;
         font-family: 'Roboto', sans-serif;
+      }
+      
+      i{
+        font-style:normal;
+        font-family: 'NB-regular';
       }
     </style>
   </head>
@@ -19,7 +44,7 @@
     <h1>HTML5</h1>
     <hr>
     <!-- 단락태그 외에 추가로 사용할 수 있는 태그를 사용  -->
-    <p><em>위키백과, 우리 모두의 백과사전.</em></p>
+    <p><i>위키백과, 우리 모두의 백과사전.</i></p>
     <p>
       HTML5는 <a href="https://ko.wikipedia.org/wiki/HTML" target="_blank">HTML</a>의 완전한 5번째 버전으로 월드 와이드 웹 (World Wide Web)의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext Application Technology Working Group(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을 시작하였다.
     </p>
