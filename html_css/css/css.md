@@ -74,9 +74,29 @@ CSS에서 id, class를 표현하는 방법
     -#A5F645 : 16진수 숫자값으로 표현
 
 - 투명도
-  - Opacity
-  - Transparency
-  - Alpha
+  - Opacity(불투명)
+    - css property => HTML Element 자체가 투명해짐(태그 안의 모든 요소들이 투명해짐)
+    - 0~1 사이의 소수점 값을 사용
+  - Transparent(투명)
+    - 단일 속성값
+  - Alpha(알파채널)
+    - 0~1 사이의 소수점 값을 사용
+    - rgba() 함수 사용
+
+```
+
+div{
+  opacity:0;
+}
+
+div{
+  background-color:transparenct;
+}
+
+div{
+  color:rgba(255,255,255,0.5); =>마지막 넘버는 0~1사이의 소수점 값
+}
+```
 
 
 
