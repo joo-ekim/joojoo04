@@ -98,5 +98,38 @@ div{
 }
 ```
 
+## CSS Text
+
+### Text color
+
+- color 속성
+
+### Text Alignment
+
+- 텍스트 정렬 : text-align
+- 왼쪽(left), 가운데(center), 오른쪽(right), 양쪽정렬(justify)
+
+### Text Decoration
+
+- 텍스트에 줄 긋기 : text-decoration
+- overline(윗줄), line turough(취소선), underline(밑줄), none(줄 없앰)
+
+### Text transformation
+
+- 영문 대소문자 변경 표시
+
+### Text Spacing
+
+- 첫줄 들여쓰기 : text-indent
+- 값 : px값
+
+- 자간 : letter-spacing
+- 값 : px값
+
+- 줄 높이 : line-heght
+- 텍스트를 포함한 해당 줄의 높이
+- 텍스트의 content-area는 텍스트와 기본여백이 포함
+- 값 : px값,배수값(소수점 숫자,단위없음)
+
 
 
