@@ -173,6 +173,9 @@ p{
   - url() 함수 : 웹 폰트 파일 불러오기
   - format() 함수 : 브라우저에서 지원하는 파일만 다운로드
   - 한글 : 본고딕(Noto Sans), 나눔바른고딕
+  - 영문 : roboto, lato, open sans, montserrat
+  - 고딕체 : sans-serif
+  - 명조체 : serif
 
 ```
   @font-face{
