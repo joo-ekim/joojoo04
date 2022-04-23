@@ -64,5 +64,19 @@ CSS에서 id, class를 표현하는 방법
 ```
 ## CSS Color
 
+- RGB 모드 색 표현 값
+  - 10진수
+    - rgb() : rgb 함수 
+    - rgb(255,255,255) : rgb() 함수에 각각 r,g,b, 숫자 값을 대입
+  - 16진수
+    - 0~9, A,B,C,D,E,F (16가지 a부터 10으로 침)
+    - R, G, B 각각 2자리로 표현
+    -#A5F645 : 16진수 숫자값으로 표현
+
+- 투명도
+  - Opacity
+  - Transparency
+  - Alpha
+
 
 
