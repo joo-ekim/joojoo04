@@ -187,3 +187,13 @@ p{
 
   }
 ``` 
+## CSS link
+
+- 4가지 상태 구분
+- link, visited, hover, active
+
+## CSS 상속, cascading, 우선 순위
+
+- 상속
+  - 포함 관계의 HTML 구조에서 부모요소에 적용한 CSS 속성이 자식요소에도 적용되는 것
+  - 모든 CSS 속성이 상속되는 것은 아님
