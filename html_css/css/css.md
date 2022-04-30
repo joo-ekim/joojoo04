@@ -284,22 +284,37 @@ border : 1px solid red;
   - border-bottom
   - border-left
 
-## Background
+## background
 
 ### Background-color
 
 - 배경 적용 범위 : contents, padding 영역에만 적용
 
-### Background-image
+### background-image
 
 - url() : 이미지 파일 경로, 파일명
 - 배경이미지가 적용된 영역보다 크기가 작을 때 반복되어 영역을 채워줌
 
-### Background-repeat
+### background-repeat
 
 - repeat : 반복(default)
 - repeat-x : 가로방향 반복
 - repeat-y : 세로방향 반족
 - no-repeat : 반복 안함
+
+### background-position
+
+- left/center/right
+- top/center/bottom
+
+```
+background-position:가로 세로;
+```
+
+### background-atachment
+
+- 배경이미지 고정
+
+- fixed : 배경이미지 고정
 
 
