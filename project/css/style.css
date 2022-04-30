@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+  vertical-align: baseline;
+  box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -45,4 +46,38 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a{
+  color:#000000;
+  text-decoration: none;
+}
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Nunito Sans', sans-serif;*/
+
+/* custom css*/
+
+.header{
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+  padding:38px 100px;
+}
+
+.gnb{
+  padding:7px;
+}
+
+.gnb-list{
+  display: flex;
+}
+
+.gnb-list-item{
+  margin-left:30px;
+}
+
+.gnb-list-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  font-weight:700;
 }
