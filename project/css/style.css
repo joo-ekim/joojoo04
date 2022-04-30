@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  /*line-height: 1;*/
+  font-family: 'Noto Sans KR', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -89,6 +90,7 @@ font-family: 'Nunito Sans', sans-serif;*/
 .section1{
   height: 320px;
   background:#f6f6f6;
+  text-align: center;
 }
 .section-heading{
   font-family: 'Montserrat', sans-serif;
@@ -97,5 +99,7 @@ font-family: 'Nunito Sans', sans-serif;*/
 }
 
 .section-paragraph{
-  font-family: 'Noto Sans KR', sans-serif;
+  width:500px;
+  margin:auto;
+
 }
