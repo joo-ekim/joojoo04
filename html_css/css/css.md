@@ -234,4 +234,18 @@ p{
   - width : 부모요소를 기준으로 값 비율만큼 지정
   - height : 자식요소를 기준으로 맞춰짐 => % 지정이 적용되지 않음
 
+### Padding
+
+- 방향별 개별 적용
+  - padding-top
+  - padding-right
+  - padding-bottom
+  - padding-left
+
+- padding : 축약 표현
+  - 값 4개
+  - 값 3개
+  - 값 2개
+  - 값 1개
+
 
