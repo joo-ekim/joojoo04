@@ -339,3 +339,9 @@ Ex) padding : 20px, border : 1px, 박스 전체크기 : 300px => width : ?
 
 300 - 40 - 2 = 258px (width 값)
 
+```
+
+- box-sizing : box 크기 설정 방식 제어
+  - content-box : content 까지 box => width 적용 범위가 content까지 영역
+  - border-box : border 까지 box => width 적용 범위가 border까지 영역
+

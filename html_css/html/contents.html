@@ -36,7 +36,7 @@
       p.align-center{
         text-align:center;
         line-height: 1.8;
-        white-space: nowrap;       
+        /* white-space: nowrap; */
       }
       p.indent{
         text-indent: 50px;
@@ -85,6 +85,29 @@
       strong#strong-id{ /* 1 + 100 = 101 => 점수를 더해서 우선순위를 높인다 */
         font-size: 30px;
       }
+      p{
+        box-sizing:border-box;
+        width:300px;
+        height:300px;
+        padding:20px;
+        border:3px solid blue;
+        margin:10px;
+        background:#dddddd;
+      }
+      table{
+        width:100%;
+        border-collapse:collapse;
+      }
+      th{
+        height:50px;
+        border-top:1px solid #aaaaaa;
+        border-bottom:1px solid #aaaaaa;
+        }
+      td{
+        height:50px;
+        border-bottom:1px solid #aaaaaa;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -110,7 +133,7 @@
     <p class="indent">
       이후 2016년 11월 1일 HTML5의 마이너 업데이트 버전인 HTML5.1 표준안을 확정, 2017년 12월 14일 HTML5.2 표준안을 확정했다. HTML5.3 표준안은 현재 작업 초안 단계로 진행 중이다.
     </p>
-    <table border="1">
+    <table>
         <thead>
           <tr>
             <th>a</th>
