@@ -81,3 +81,21 @@ font-family: 'Nunito Sans', sans-serif;*/
   font-size:12px;
   font-weight:700;
 }
+
+.gnb-list-link:hover{
+  color:#10c9c3;
+}
+
+.section1{
+  height: 320px;
+  background:#f6f6f6;
+}
+.section-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size:38px;
+  font-weight:600;
+}
+
+.section-paragraph{
+  font-family: 'Noto Sans KR', sans-serif;
+}
