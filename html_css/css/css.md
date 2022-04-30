@@ -317,4 +317,25 @@ background-position:가로 세로;
 
 - fixed : 배경이미지 고정
 
+## 박스 전체 크기 계산
+
+- width, padding,border, margin 구성 요소의 값을 합산한 값
+- width, padding,border의 값을 합산한 값이 박스의 전체크기
+- margin은 layout 구성시 별도로 합산이 필요함
+
+```
+박스전체 크기 계산
+div{
+  width:300px;
+  padding:20px;
+  border:1px solid red;
+  margin:30px
+}
+
+width + padding + border = 300 + (20 * 2) + (1 * 2) =>342px
+(padding 과 border 은 양쪽 값이 모두 계산되어야 함으로 x2 해준다)
+
+Ex) padding : 20px, border : 1px, 박스 전체크기 : 300px => width : ?
+
+300 - 40 - 2 = 258px (width 값)
 
