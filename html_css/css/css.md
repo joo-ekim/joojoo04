@@ -37,11 +37,13 @@ selector{property:value;}
 ```
 
 - id
-  - 동일한 HTML 파일에서 단 한번만 사용되어야 함 
+
+  - 동일한 HTML 파일에서 단 한번만 사용되어야 함
     => 고유하게 사용됨, BackEnd 개발과 연결해서 활용
   - 동일한 HTML Element에 여러개의 id 이름을 사용할 수 없음
 
 - class
+
   - 동일한 HTML 파일에서 같은 이름을 여러번 사용할 수 있음
     => 여러 요소에 스타일을 공동적용 시킬 때 활용
   - 동일한 HTML Element에 여러개의 class 이름을 사용할 수 있음
@@ -50,11 +52,13 @@ selector{property:value;}
 - FE에서는 주로 class를 활용
 
 ## CSS Selector
+
 - Simple Selector
 - Element Selector
 - class Selector
 
 CSS에서 id, class를 표현하는 방법
+
 - id => #
 - class => .
 
@@ -62,16 +66,18 @@ CSS에서 id, class를 표현하는 방법
 #para1{} (id)
 .para2{} (class)
 ```
+
 ## CSS Color
 
 - RGB 모드 색 표현 값
+
   - 10진수
-    - rgb() : rgb 함수 
+    - rgb() : rgb 함수
     - rgb(255,255,255) : rgb() 함수에 각각 r,g,b, 숫자 값을 대입
   - 16진수
     - 0~9, A,B,C,D,E,F (16가지 a부터 10으로 침)
     - R, G, B 각각 2자리로 표현
-    -#A5F645 : 16진수 숫자값으로 표현
+      -#A5F645 : 16진수 숫자값으로 표현
 
 - 투명도
   - Opacity(불투명)
@@ -141,19 +147,22 @@ div{
 
 - 글꼴 종류 : font-family
   - 앞에서 부터 차례대로 설치된 폰트를 찾아서 설치되어 있는 폰트를 화면에 랜더링 함
-  - Fallback 기능 
+  - Fallback 기능
 
 ```
 p{
   font-family:arial, helvetica, sans-serif;
 }
 ```
+
 - Fallback 기능 원리
+
   - 브라우저가 폰트를 찾는 기본 위치 : 시용자(클라이언트) PC
   - 폰트 종류를 선택할 때 사용자들이 범용으로 사용할 만한 폰트를 선택 => Web safe font
   - 웹 안전 폰트 : 돋움, 굴림
 
 - 브라우저가 폰트를 서버에서 찾도록 하는 기능 => Web font
+
   - 로컬 서버에 직접 웹폰트 파일을 업로드해서 사용
   - 웹 폰트 서비스를 사용 - 구글 폰트
 
@@ -186,7 +195,8 @@ p{
         font-weight:normal;
 
   }
-``` 
+```
+
 ## CSS link
 
 - 4가지 상태 구분
@@ -195,19 +205,33 @@ p{
 ## CSS 상속, cascading, 우선 순위
 
 - 상속
+
   - 포함 관계의 HTML 구조에서 부모요소에 적용한 CSS 속성이 자식요소에도 적용되는 것
   - 모든 CSS 속성이 상속되는 것은 아님
 
 - cascading, 우선 순위
-  - cascading :  나중에 적용한 CSS가 최종 적용되어 표시
+  - cascading : 나중에 적용한 CSS가 최종 적용되어 표시
   - 우선순위 : 선택자의 우선 순위에 따라서 적용되는 순서를 변경할 수 있음
     - id : 100점
     - class : 10점
     - tag : 1점
 
-## 네이밍 표기법 : naming()intro => 두개 이상의 단어로 네이밍을 할 때, 단어 사이의 구분을 하는 방법 
+## 네이밍 표기법 : naming()intro => 두개 이상의 단어로 네이밍을 할 때, 단어 사이의 구분을 하는 방법
 
 - naming-intro : kebab case => id, class, url 경로
 - naming_intro : snake case => file, folder
 - namingIntro : camel case (첫번째는 소문자, 이어붙여서 두번째 단어는 대문자) => js의 변수, 함수 이름
 - NamingIntro : pascal case (첫번째, 두번째 모두 대문자) => js Class 이름
+
+## Box model
+
+### Height / Wigth
+
+- 박스 크기 지정
+
+- px : 지정된 값으로 고정
+- %
+  - width : 부모요소를 기준으로 값 비율만큼 지정
+  - height : 자식요소를 기준으로 맞춰짐 => % 지정이 적용되지 않음
+
+
