@@ -248,4 +248,23 @@ p{
   - 값 2개
   - 값 1개
 
+** top에만 padding을 적용하는 경우
+
+```
+div{
+  padding-top:100px;
+}
+
+div{
+  padding:100px 0 0 0;
+} => 0은 px 표시를 하지 않는다
+```
+
+### margin
+
+- padding과 사용방법이 같음
+
+- auto : 왼쪽, 오른쪽 여백이 동일하게 적용 => 박스 가운데 배치
+
+
 
