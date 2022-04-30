@@ -269,4 +269,37 @@ div{
 - margin 상쇄(겹침)
   - 박스가 상하배치되어 있을떄 박스 사이의 margin이 큰 margin만 적용되는 것
 
+### border
+
+- border 축약 표현
+
+```
+border : 1px solid red;
+```
+
+- boeder 방향 추가
+
+  - border-top
+  - border-right
+  - border-bottom
+  - border-left
+
+## Background
+
+### Background-color
+
+- 배경 적용 범위 : contents, padding 영역에만 적용
+
+### Background-image
+
+- url() : 이미지 파일 경로, 파일명
+- 배경이미지가 적용된 영역보다 크기가 작을 때 반복되어 영역을 채워줌
+
+### Background-repeat
+
+- repeat : 반복(default)
+- repeat-x : 가로방향 반복
+- repeat-y : 세로방향 반족
+- no-repeat : 반복 안함
+
 
