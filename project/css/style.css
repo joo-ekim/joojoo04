@@ -91,11 +91,14 @@ font-family: 'Nunito Sans', sans-serif;*/
   height: 320px;
   background:#f6f6f6;
   text-align: center;
+  padding-top:95px
 }
+
 .section-heading{
   font-family: 'Montserrat', sans-serif;
   font-size:38px;
   font-weight:600;
+  margin-bottom: 30px;
 }
 
 .section-paragraph{
