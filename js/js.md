@@ -257,3 +257,10 @@ myfunction();
 myfunction();
 myfunction();
 ```
+
+### 배열/객체/class
+
+- 배열
+  - 참조형 데이터
+  - 데이터 집합
+  - 같은 타입, 같은 의미 데이터
