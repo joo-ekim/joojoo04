@@ -236,4 +236,24 @@ statement3 : i++
       else {
         로그인 실패
       }
+ }
+```
+
+#### 함수
+
+- 여러 코드를 하나의 패키지로 그룹화
+- 코드의 재사용
+
+```
+// 함수 선언
+function myfunction(){
+  let a=10;
+  let sum=0;
+  sum=sum+a;
+}
+
+//함수 호출
+myfunction();
+myfunction();
+myfunction();
 ```
