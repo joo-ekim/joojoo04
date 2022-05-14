@@ -97,9 +97,17 @@ b -=3; // 감소 연산
 
 let sum = 0;
 sum += 1;
-sum++;
+sum++; // 증가 연산, 카운터(증가)
 
 sum -= 1;
-sum--;
+sum--; // 감소 연산, 카운터(감소)
+```
+
+- 문자 연산자
+  - + : 연결 연산자
 
 ```
+'hello' + 'world' => helloworld
+10 + 'hello' => 10hello
+```
+
