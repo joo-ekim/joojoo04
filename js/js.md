@@ -134,7 +134,7 @@ sum--; // 감소 연산, 카운터(감소)
   - 논리 연산
     - AND(논리곱) : && - (연산하는 논리값 모두 true일때 결과값이 true)
     - OR(논리합) : || - (연산하는 논리값 모두 false일때 결과값이 false)
-    - NOT(부정) : ! - ()
+    - NOT(부정) : !
 ```
 true && false => false
 true || false => true
