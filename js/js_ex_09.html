@@ -67,10 +67,14 @@
         width: 300px;
       }
       .data-item{
-        border: 1px solid pink;
+        border: 1px solid rgb(209, 55, 80);
         font-size: 20px;
         padding:10px;
         margin:20px 0;
+        display: flex;
+      }
+      .data-number{
+        margin-right: 10px;
       }
       .form-group{
         border: 1px solid #000;
@@ -96,10 +100,6 @@
       <li class="data-item">
           <span class="data-number">3</span>
           <span class="data-content">javascript</span>
-      </li>
-      <li class="data-item">
-          <span class="data-number">4</span>
-          <span class="data-content">abc</span>
       </li>
     </ol>
     <div class="form-group">
@@ -130,7 +130,7 @@
     <script>
       // 기본 Accese
       let data=document.querySelector('.data');
-      let dataItem=document.querySelectorAll('.data-item');
+      
 
       // Create
       // button Accese
@@ -142,15 +142,31 @@
       createBtn.addEventListener('click',function(){
         // 입력된 내용 Accese
         let createText=document.querySelector('.create-text').value;
+        // 목록 아이템
+        let dataItem=document.querySelectorAll('.data-item');
+
         let listItem=document.createElement('li'); // <li></li>
         // html 요소에 class 이름 추가
         listItem.classList.add('data-item'); //<li class="data-item"></li>
 
         let dataNumber=document.createElement('span'); //<span></span>
         dataNumber.classList.add('data-number'); //<span class="data-number"></span>
+        dataNumber.innerHTML=dataItem.length+1; //<span class="data-number">4</span>
 
         let dataContent=document.createElement('span'); //<span></span>
         dataContent.classList.add('data-content'); //<span class="data-content"></span>
+        dataContent.innerHTML=createText; //<span class="data-content">인풋내용</span>
+
+        // appendChild() : 마지막에 추가
+        listItem.appendChild(dataNumber);
+        listItem.appendChild(dataContent);
+        /*
+        <li class="data=item">
+          <span class="data-number">4</span>
+          <span class="data-content">인풋내용</span>
+        </li>
+        */
+        data.appendChild(listItem); // 목록에 추가해서 웹페이지 화면에 표시
       });
     </script>
   </body>
