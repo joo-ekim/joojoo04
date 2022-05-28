@@ -90,35 +90,35 @@
     <h1>CRUD 기능 구현 예제</h1>
     <ol class="data">
       <li class="data-item">
-        <span class="data-number">1</span>
-        <span class="data-content">HTML</span>
+        <span class="data-number"/>1</span>
+        <span class="data-content"/>HTML</span>
       </li>
       <li class="data-item">
-        <span class="data-number">2</span>
-        <span class="data-content">CSS</span>
+        <span class="data-number"/>2</span>
+        <span class="data-content"/>CSS</span>
       </li>
       <li class="data-item">
-          <span class="data-number">3</span>
-          <span class="data-content">javascript</span>
+          <span class="data-number"/>3</span>
+          <span class="data-content"/>javascript</span>
       </li>
     </ol>
     <div class="form-group">
       <!-- Create : 추가 -->
       <div>
-          <input type="text" class="create-text">
-          <button type="button"class="create-btn">추가</button>
+          <input type="text" class="create-text"/>
+          <button type="button"class="create-btn"/>추가</button>
       </div>
       <!-- Read : 표시 -->
       <div>
         <input type="text">
         <input type="text">
-        <button type="button" class="read-btn">표시</button>
+        <button type="button" class="read-btn"/>표시</button>
       </div>
       <!-- Update : 수정,갱신 -->
       <div>
-          <input type="text">
-          <input type="text">
-          <button type="button">수정</button>
+          <input type="text" class="update-number"/>
+          <input type="text" class="update-content"/>
+          <button type="button" class="update-btn"/>수정</button>
       </div>
       <div>
           <input type="text">
@@ -185,11 +185,21 @@
 
         // 인풋박스에 텍스트 표시
         readContent.value=readData;
-        
+        });
 
-        
+      //Update
+      let readBtn=document.querySelector('.update-btn');
+      updateBtn.addEventListener('click',function(){
+
+        let updateNumber=document.querySelector('.update-number').value;
+        let updateContent=document.querySelector('.update-content').value;
+        let dataItem=document.querySelectorAll('.data-item');
 
       });
+
+
+
+
     </script>
   </body>
 </html>
