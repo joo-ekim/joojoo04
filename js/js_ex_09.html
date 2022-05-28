@@ -112,7 +112,7 @@
       <div>
         <input type="text">
         <input type="text">
-        <button type="button">표시</button>
+        <button type="button" class="read-btn">표시</button>
       </div>
       <!-- Update : 수정,갱신 -->
       <div>
@@ -169,6 +169,17 @@
         </li>
         */
         data.appendChild(listItem); // 목록에 추가해서 웹페이지 화면에 표시
+      });
+      // Read
+      let readBtn=document.querySelector('.read-btn');
+      readBtn.addEventListener('click',function(){
+      
+        let readNumber=document.querySelector('.read-number').value;
+        let readContent=document.querySelector('.read-content');
+        let dataItem=document.querySelector('data-item');
+
+        console.log()
+
       });
     </script>
   </body>
