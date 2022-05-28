@@ -178,8 +178,14 @@
         let readContent=document.querySelector('.read-content');
         let dataItem=document.querySelectorAll('.data-item');
 
+
         // 객체 property name 이 숫자로 되어있는 경우 [] 사용해서 값을 표시
-        console.log(dataItem[readNumber-1]);
+        // 입력한 숫자번째 목록 항목에서 텍스트 값을 추출
+        let temp=dataItem[readNumber-1].querySelector('.data-content')
+
+        // 인풋박스에 텍스트 표시
+        readContent.value=readData;
+        
 
         
 
