@@ -479,3 +479,14 @@ element.style.property = value
      - 이동(move), 클릭(click)
     - 키보드 이벤트
      - 입력(keydown)
+
+### Effect
+
+- show/hide
+- fade in/out
+- slide in/out
+
+- img(visual) rolling / carousel 효과
+  - 이미지 또는 비주얼 요소를 순서대로 반복해서 보여줄 때 사용하는 효과
+
+Algorithm 알고리듬
