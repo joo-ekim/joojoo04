@@ -489,4 +489,6 @@ element.style.property = value
 - image(visual) rolling / carousel 효과
   - 이미지 또는 비주얼 요소를 순서대로 반복해서 보여줄 때 사용하는 효과
 
-Algorithm
+- animation, motion 효과
+  - 시작상태에서 끝상태로 변화할때 중간 과정을 모두 보여주는 것
+  - CSS motion 효과를 사용
