@@ -344,7 +344,6 @@ font-family: 'Nunito Sans', sans-serif; */
 @media screen and (max-width:700px){
   .header{
     padding: 20px;
-    
   }
   .mobile-btn{
     display: block;
