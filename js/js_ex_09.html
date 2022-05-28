@@ -142,7 +142,15 @@
       createBtn.addEventListener('click',function(){
         // 입력된 내용 Accese
         let createText=document.querySelector('.create-text').value;
-        let listItem=document.createElement('li');
+        let listItem=document.createElement('li'); // <li></li>
+        // html 요소에 class 이름 추가
+        listItem.classList.add('data-item'); //<li class="data-item"></li>
+
+        let dataNumber=document.createElement('span'); //<span></span>
+        dataNumber.classList.add('data-number'); //<span class="data-number"></span>
+
+        let dataContent=document.createElement('span'); //<span></span>
+        dataContent.classList.add('data-content'); //<span class="data-content"></span>
       });
     </script>
   </body>
