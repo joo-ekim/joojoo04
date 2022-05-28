@@ -437,3 +437,5 @@ Ex) padding : 20px, border : 1px, 박스 전체 크기 : 300px => width:?
 - relative, absolute, fixed
 - 좌표 표시 속성
   - top, right, bottom, left
+- position:absolute
+  - 좌표 배치는 부모요소를 기준으로 배치
