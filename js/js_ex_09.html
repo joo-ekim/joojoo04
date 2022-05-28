@@ -94,8 +94,12 @@
         <span class="data-content">CSS</span>
       </li>
       <li class="data-item">
-        <span class="data-number">3</span>
-        <span class="data-content">Javascript</span>
+          <span class="data-number">3</span>
+          <span class="data-content">javascript</span>
+      </li>
+      <li class="data-item">
+          <span class="data-number">4</span>
+          <span class="data-content">abc</span>
       </li>
     </ol>
     <div class="form-group">
@@ -129,14 +133,17 @@
       let dataItem=document.querySelectorAll('.data-item');
 
       // Create
-      // 입력된 내용에 대한 Accese
-      let createText=document.querySelector('.create-text').value;
+      // button Accese
       let createBtn=document.querySelector('.create-btn');
 
       // button 을 클릭했을때 => 이벤트
       // 이벤트 감지(리스닝) 매소드
       // addEventListener(이벤트,핸들러함수)
-      createBtn.addEventListener()
+      createBtn.addEventListener('click',function(){
+        // 입력된 내용 Accese
+        let createText=document.querySelector('.create-text').value;
+        let listItem=document.createElement('li');
+      });
     </script>
   </body>
 </html>
