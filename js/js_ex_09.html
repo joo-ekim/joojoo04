@@ -85,15 +85,24 @@
   <body>
     <h1>CRUD 기능 구현 예제</h1>
     <ol class="data">
-      <li class="data-item">HTML</li>
-      <li class="data-item">CSS</li>
-      <li class="data-item">Javascript</li>
+      <li class="data-item">
+        <span class="data-number">1</span>
+        <span class="data-content">HTML</span>
+      </li>
+      <li class="data-item">
+        <span class="data-number">2</span>
+        <span class="data-content">CSS</span>
+      </li>
+      <li class="data-item">
+        <span class="data-number">3</span>
+        <span class="data-content">Javascript</span>
+      </li>
     </ol>
     <div class="form-group">
       <!-- Create : 추가 -->
       <div>
-          <input type="text">
-          <button type="button">추가</button>
+          <input type="text" class="create-text">
+          <button type="button"class="create-btn">추가</button>
       </div>
       <!-- Read : 표시 -->
       <div>
@@ -113,5 +122,19 @@
       </div>
         
     </div>
+
+    <script>
+      // 기본 Accese
+      let data=document.querySelector('.data');
+      let dataItem=document.querySelectorAll('.data-item');
+
+      // Create
+      // 입력된 내용에 대한 Accese
+      let createText=document.querySelector('.create-text').value;
+      let createBtn=document.querySelector('.create-btn');
+
+      // button 을 클릭했을때 => 
+      console.log(createText);
+    </script>
   </body>
 </html>

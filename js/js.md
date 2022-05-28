@@ -456,3 +456,8 @@ element.style.property = value
 
 - button
   - submit, reset, button 3가지 type
+
+### 이벤트(Event)
+
+- 상태변화
+  - 현재 상태에서 다른 상태로의 변화
