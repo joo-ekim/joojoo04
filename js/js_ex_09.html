@@ -145,6 +145,7 @@
         // 목록 아이템
         let dataItem=document.querySelectorAll('.data-item');
 
+        
         let listItem=document.createElement('li'); // <li></li>
         // html 요소에 class 이름 추가
         listItem.classList.add('data-item'); //<li class="data-item"></li>
@@ -157,6 +158,7 @@
         dataContent.classList.add('data-content'); //<span class="data-content"></span>
         dataContent.innerHTML=createText; //<span class="data-content">인풋내용</span>
 
+        
         // appendChild() : 마지막에 추가
         listItem.appendChild(dataNumber);
         listItem.appendChild(dataContent);
