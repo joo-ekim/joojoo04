@@ -205,7 +205,7 @@
         let deleteNumber=document.querySelector('.delete-number').value;
         let dataItem=document.querySelectorAll('.data-item');
 
-        dataItem[deleteNumber-1]
+        data.removeChild(dataItem[deleteNumber-1]);
 
       });
 
