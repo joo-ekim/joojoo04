@@ -460,12 +460,13 @@ element.style.property = value
 ### 이벤트(Event)
 
 - 상태변화
+
   - 현재 상태에서 다른 상태로의 변화
-  Ex) 내용 입력, 마우스클릭, 마우스이동...
-  - 이벤트 발생
-    -상태 변화에 따른 신호 표시 
+    Ex) 내용 입력, 마우스클릭, 마우스이동...
+  - 이벤트 발생 -상태 변화에 따른 신호 표시
 
 - 상태 변화에 따라 특정 기능 실행
+
   - 이벤트 리스닝
     - 발생된 이벤트 감지
   - 이벤트 핸들링
@@ -473,12 +474,12 @@ element.style.property = value
 
 - 이벤트 종류
   - 브라우저 이벤트
-   - HTML 로딩완료 이벤트(load)
+  - HTML 로딩완료 이벤트(load)
   - 사용자 이벤트
     - 마우스 이벤트
-     - 이동(move), 클릭(click)
+    - 이동(move), 클릭(click)
     - 키보드 이벤트
-     - 입력(keydown)
+    - 입력(keydown)
 
 ### Effect
 
@@ -487,8 +488,25 @@ element.style.property = value
 - slide in/out
 
 - image(visual) rolling / carousel 효과
+
   - 이미지 또는 비주얼 요소를 순서대로 반복해서 보여줄 때 사용하는 효과
 
 - animation, motion 효과
   - 시작상태에서 끝상태로 변화할때 중간 과정을 모두 보여주는 것
   - CSS motion 효과를 사용
+
+### transition
+
+- 상태 변화의 중간 과정을 표현
+
+```
+
+transition: 속성 시간;
+
+transition:width 2s;
+
+transition:all 2s;
+
+transition:width 2s; heigth 4s;
+
+```
